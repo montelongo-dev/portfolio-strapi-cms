@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_skillzz_categoreezs",
+  "info": {
+    "name": "Category",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "skills": {
+      "collection": "skill"
+    },
+    "fa_icon": {
+      "type": "string"
+    }
+  }
+}

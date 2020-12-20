@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_resume_resumes",
+  "info": {
+    "name": "Resume",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "resumeUrl": {
+      "type": "string"
+    },
+    "fa_icon": {
+      "type": "string"
+    }
+  }
+}

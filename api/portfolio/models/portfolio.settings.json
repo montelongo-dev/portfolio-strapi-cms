@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "name": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true,
+      "maxLength": 64,
+      "minLength": 2
+    },
+    "subhead": {
+      "type": "string"
+    },
+    "about": {
+      "type": "richtext",
+      "required": true
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.links"
+    },
+    "resume": {
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.resume"
+    },
+    "contact": {
+      "type": "richtext"
+    },
+    "category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.categoreez"
+    }
+  }
+}

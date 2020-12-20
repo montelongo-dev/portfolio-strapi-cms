@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "name": "Links",
+    "icon": "sign-out-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "fa_icon": {
+      "type": "string"
+    }
+  }
+}
